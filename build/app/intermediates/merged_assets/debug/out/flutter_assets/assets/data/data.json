@@ -1,0 +1,110 @@
+[
+  {
+    "catalogName": "Классика",
+    "countProduct": 6,
+    "doorList": [
+      {
+        "title": "Барселона ясень жемчуг со стеклом",
+        "description": "",
+        "image_url": "url",
+        "image_asset": "door1.jpg",
+        "price": "9 900 руб.",
+        "backgroundColor": "0xF0535053",
+        "shortInfo": "Барселона ясень жемчуг со стеклом"
+      },
+      {
+        "title": "Барселона ясень жемчуг со стеклом бронза",
+        "description": "",
+        "image_url": "url",
+        "image_asset": "door2.jpg",
+        "price": "9 900 руб.",
+        "backgroundColor": "0xF0535053",
+        "shortInfo": "Барселона ясень жемчуг со стеклом бронза"
+      },
+      {
+        "title": "Барселона дуб бренди глухая",
+        "description": "",
+        "image_url": "url",
+        "image_asset": "door3.jpg",
+        "price": "9 200 руб.",
+        "backgroundColor": "0xF0535053",
+        "shortInfo": "Барселона дуб бренди глухая"
+      },
+      {
+        "title": "Барселона дуб бренди глухая со стеклом",
+        "description": "",
+        "image_url": "url",
+        "image_asset": "door4.jpg",
+        "price": "9 900 руб.",
+        "backgroundColor": "0xF0535053",
+        "shortInfo": "Барселона дуб бренди глухая"
+      },
+      {
+        "title": "Барселона ясень жемчуг глухая",
+        "description": "",
+        "image_url": "url",
+        "image_asset": "door5.jpg",
+        "price": "9 200 руб.",
+        "backgroundColor": "0xF0535053",
+        "shortInfo": "Барселона ясень жемчуг глухая"
+      },
+      {
+        "title": "Корсика дуб Антико глухая",
+        "description": "",
+        "image_url": "url",
+        "image_asset": "door6.jpg",
+        "price": "10 700 руб.",
+        "backgroundColor": "0xF0535053",
+        "shortInfo": "Корсика дуб Антико глухая"
+      }
+    ]
+  },
+  {
+    "catalogName": "Белые двери",
+    "countProduct": 1,
+    "doorList": [
+      {
+        "title": "Элегант 4 ДО",
+        "description": "",
+        "image_url": "url",
+        "image_asset": "white_door1.jpg",
+        "price": "7 100 руб.",
+        "backgroundColor": "0xF0535053",
+        "shortInfo": "Элегант 4 ДО"
+      }
+    ]
+  },
+  {
+    "catalogName": "Массивы",
+    "countProduct": 1,
+    "doorList": [
+      {
+        "title": "Дуб Олива",
+        "description": "",
+        "image_url": "url",
+        "image_asset": "white_door1.jpg",
+        "price": "27 810 руб.",
+        "backgroundColor": "0xF0535053",
+        "shortInfo": "Дуб Олива"
+      },
+      {
+        "title": "Дуб масло вертикальный",
+        "description": "",
+        "image_url": "url",
+        "image_asset": "massive_door2.jpg",
+        "price": "22 255 руб.",
+        "backgroundColor": "0xF0535053",
+        "shortInfo": "Дуб масло вертикальный"
+      },
+      {
+        "title": "Дуб Малахит вертикальный",
+        "description": "",
+        "image_url": "url",
+        "image_asset": "massive_door3.jpg",
+        "price": "20 295 руб.",
+        "backgroundColor": "0xF0535053",
+        "shortInfo": "Дуб Малахит вертикальный"
+      }
+    ]
+  }
+]
