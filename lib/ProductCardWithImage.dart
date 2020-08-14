@@ -19,7 +19,7 @@ class ProductCardWithImage  extends StatelessWidget{
             children: [
               Text("1121"),
               SizedBox(
-                height: 520 * 0.1,
+                height: 520 * 0.7,
                 width: 240 * 0.7,    
                 child: Expanded(
                 child: Hero(
