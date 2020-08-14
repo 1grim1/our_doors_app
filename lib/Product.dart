@@ -29,8 +29,7 @@ class Product extends StatelessWidget{
       body: SingleChildScrollView(
         child: Column(
           children: [
-            ProductCardWithImage(this),
-            ProductDescription(description)
+            ProductCardWithImage(this)
           ],
         )
       )
