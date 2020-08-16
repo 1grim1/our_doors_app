@@ -6,23 +6,23 @@ import 'package:our_doors/Product.dart';
 import 'package:our_doors/const.dart';
 
 
-class CatalogData extends StatelessWidget{
+class Data extends StatelessWidget{
   String catalogName;
   int countProduct;
-  List<DoorCart> doorList = [];
+  List<DoorCart> modelList = [];
 
-  CatalogData(data){
+  Data(data){
     catalogName = data['catalogName'];
     countProduct = data['countProduct'];
-    for(var e in data['doorList']){
+    for(var e in data['models']){
       print(e);
-      doorList.add(
+      modelList.add(
         DoorCart(
-          title: e['title'],
+          modelName: e['model_name'],
+          name: e['name'],
           description: e['description'],
-          image_asset: 'assets/images/' + e['image_asset'],
           price: e['price'],
-          shortInfo: e['shortInfo'],
+          imageAssetList: e['image_list_asset'],
           catalogName: catalogName,
         )
       );
@@ -38,7 +38,7 @@ class CatalogData extends StatelessWidget{
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: defaultPading),
             child: GridView.builder(
-                itemCount: doorList.length,
+                itemCount: modelList.length,
                 primary: true,
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   childAspectRatio: 0.5,
@@ -47,7 +47,7 @@ class CatalogData extends StatelessWidget{
                   crossAxisSpacing: defaultPading,
                 ),
                 shrinkWrap: true,
-                itemBuilder: (context, index) => doorList[index]
+                itemBuilder: (context, index) => modelList[index]
             ),
           ),
         ),
@@ -58,23 +58,22 @@ class CatalogData extends StatelessWidget{
 
 class DoorCart extends StatelessWidget{
   Product product;
-  final String title;
+  final String modelName;
+  final String name;
   final String description;
-  final String image_asset;
+  final List<dynamic> imageAssetList;
   final String price;
-  final String shortInfo;
-  final String backgrounColor;
   final String catalogName;
 
   void _pushProduct(BuildContext context){
     Navigator.of(context).push(MaterialPageRoute(builder: (context) => product));
   }
 
-  DoorCart({this.title, this.description, this.shortInfo, this.price, this.image_asset, this.backgrounColor, this.catalogName}){
+  DoorCart({this.modelName, this.description,this.price, this.imageAssetList, this.catalogName, this.name}){
     product = Product(
-      name: title,
+      name: modelName,
       description: description,
-      image_asset: image_asset,
+      imageAssetList: imageAssetList,
       price: price,
       catalogName: catalogName,
     );
@@ -96,8 +95,8 @@ class DoorCart extends StatelessWidget{
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: Hero(
-                  tag: "$title",
-                  child: Image.asset(image_asset),
+                  tag: "$modelName",
+                  child: Image.asset(imageAssetList[0]),
                 ),
               ),
             ),
@@ -105,7 +104,7 @@ class DoorCart extends StatelessWidget{
               padding: const EdgeInsets.all(1),
               child: Text(
                 // products is out demo list
-                title,
+                modelName,
                 textAlign: TextAlign.center,
                 style: TextStyle(color: TextLightColor),
               ),

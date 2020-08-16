@@ -20,7 +20,7 @@ with SingleTickerProviderStateMixin{
 
 
 
-  List<CatalogData> dataList = [];
+  List<Data> dataList = [];
 
   List<Tab> tabList = [];
 
@@ -35,7 +35,7 @@ with SingleTickerProviderStateMixin{
   
   void fillData(){
     for(var obj in data){
-      dataList.add(CatalogData(obj));
+      dataList.add(Data(obj));
       tabList.add(
         Tab(
           child: Text(obj['catalogName'],

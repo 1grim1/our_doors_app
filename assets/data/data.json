@@ -2,108 +2,44 @@
   {
     "catalogName": "Классика",
     "countProduct": 6,
-    "doorList": [
+    "models": [
       {
-        "title": "Барселона ясень жемчуг со стеклом",
+        "model_name": "model_name1",
+        "name": "Барселона ясень жемчуг со стеклом1",
         "description": "",
-        "image_url": "url",
-        "image_asset": "door1.jpg",
-        "price": "9 900 руб.",
-        "backgroundColor": "0xF0535053",
-        "shortInfo": "Барселона ясень жемчуг со стеклом"
+        "price": "100000",
+        "image_list_asset":["assets/images/door1.jpg"],
+        "image_list_url":[]
       },
       {
-        "title": "Барселона ясень жемчуг со стеклом бронза",
+        "model_name": "model_name2",
+        "name": "Барселона ясень жемчуг со стеклом2",
         "description": "",
-        "image_url": "url",
-        "image_asset": "door2.jpg",
-        "price": "9 900 руб.",
-        "backgroundColor": "0xF0535053",
-        "shortInfo": "Барселона ясень жемчуг со стеклом бронза"
-      },
-      {
-        "title": "Барселона дуб бренди глухая",
-        "description": "",
-        "image_url": "url",
-        "image_asset": "door3.jpg",
-        "price": "9 200 руб.",
-        "backgroundColor": "0xF0535053",
-        "shortInfo": "Барселона дуб бренди глухая"
-      },
-      {
-        "title": "Барселона дуб бренди глухая со стеклом",
-        "description": "",
-        "image_url": "url",
-        "image_asset": "door4.jpg",
-        "price": "9 900 руб.",
-        "backgroundColor": "0xF0535053",
-        "shortInfo": "Барселона дуб бренди глухая"
-      },
-      {
-        "title": "Барселона ясень жемчуг глухая",
-        "description": "",
-        "image_url": "url",
-        "image_asset": "door5.jpg",
-        "price": "9 200 руб.",
-        "backgroundColor": "0xF0535053",
-        "shortInfo": "Барселона ясень жемчуг глухая"
-      },
-      {
-        "title": "Корсика дуб Антико глухая",
-        "description": "",
-        "image_url": "url",
-        "image_asset": "door6.jpg",
-        "price": "10 700 руб.",
-        "backgroundColor": "0xF0535053",
-        "shortInfo": "Корсика дуб Антико глухая"
+        "price": "200000",
+        "image_list_asset":["assets/images/door2.jpg"],
+        "image_list_url":[]
       }
     ]
   },
   {
-    "catalogName": "Белые двери",
-    "countProduct": 1,
-    "doorList": [
+    "catalogName": "Дуб",
+    "countProduct": 6,
+    "models": [
       {
-        "title": "Элегант 4 ДО",
-        "description": "",
-        "image_url": "url",
-        "image_asset": "white_door1.jpg",
-        "price": "7 100 руб.",
-        "backgroundColor": "0xF0535053",
-        "shortInfo": "Элегант 4 ДО"
-      }
-    ]
-  },
-  {
-    "catalogName": "Массивы",
-    "countProduct": 1,
-    "doorList": [
-      {
-        "title": "Дуб Олива",
-        "description": "",
-        "image_url": "url",
-        "image_asset": "white_door1.jpg",
-        "price": "27 810 руб.",
-        "backgroundColor": "0xF0535053",
-        "shortInfo": "Дуб Олива"
+        "model_name": "model_name1",
+        "name": "Барселона ясень жемчуг со стеклом1",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+        "price": "100000",
+        "image_list_asset":["assets/images/door3.jpg", "assets/images/door6.jpg", "assets/images/door1.jpg", "assets/images/door2.jpg"],
+        "image_list_url":[]
       },
       {
-        "title": "Дуб масло вертикальный",
-        "description": "",
-        "image_url": "url",
-        "image_asset": "massive_door2.jpg",
-        "price": "22 255 руб.",
-        "backgroundColor": "0xF0535053",
-        "shortInfo": "Дуб масло вертикальный"
-      },
-      {
-        "title": "Дуб Малахит вертикальный",
-        "description": "",
-        "image_url": "url",
-        "image_asset": "massive_door3.jpg",
-        "price": "20 295 руб.",
-        "backgroundColor": "0xF0535053",
-        "shortInfo": "Дуб Малахит вертикальный"
+        "model_name": "model_name2",
+        "name": "Барселона ясень жемчуг со стеклом2",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+        "price": "200000",
+        "image_list_asset":["assets/images/door5.jpg"],
+        "image_list_url":[]
       }
     ]
   }
